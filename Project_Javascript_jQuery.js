@@ -31,5 +31,19 @@ $(document).ready(function() {
         $(this).css("background-color", "black");
         });
     });
+   $(".eraser").click(function() {
+        $(".grid").mouseover(function() {
+        $(this).css("background-color", "white");
+        });
+    });
+
+
+    $(".drawer").click(function() {
+        $(".grid").mouseover(function() {
+        $(this).css("background-color", "black");
+        });
+    });
+
+
 });
 
